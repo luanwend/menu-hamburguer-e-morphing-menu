@@ -152,7 +152,7 @@ a:hover{
 }
 .menu-itens ul li a{
 	margin: 10px 0;
-	color: green;
+	color: #990000;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 4px;
@@ -162,7 +162,7 @@ a:hover{
 
 #toggle:checked + .checkbox .trace:nth-child(1){
 	transform: rotate(45deg);
-	background-color: green;
+	background-color:#990000;
 	top: 47px;
 }
 #toggle:checked + .checkbox .trace:nth-child(2){
@@ -173,17 +173,17 @@ a:hover{
 
 #toggle:checked + .checkbox .trace:nth-child(3){
 	transform: rotate(-45deg);
-	background-color: green;
+	background-color:#990000;
 	top: 48px;
 }
 
 #toggle:checked + .checkbox{
-	background-color: black;
+	background-color: #996633;
 
 }
 
 #toggle:checked ~ .menu{
-	box-shadow: 0px 0px 0px 100vmax black;
+	box-shadow: 0px 0px 0px 100vmax #996633;
 	z-index: 1;
 }
 #toggle:checked ~ .menu-itens{
